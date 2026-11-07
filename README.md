@@ -1,4 +1,18 @@
-# Minescript-Studio-mod
-Addon to the minescript mod which adds a code editor and some feautures to the minescript. 
-
+# Minescript-Studio
+Fabric client mod for Minecraft 26.3: editor and settings for Minescript right in the game.
 Edit, save and run Minescript scripts without leaving Minecraft. Syntax highlighting, suggestions for the Minescript API, find in file, syntax check, a collapsible console, file actions on right click, configurable hotkeys, and settings for the scripts folder and Python path
+
+## Vuild
+
+Need JDK 25 and Internet.
+
+Windows: `./gradlew build`.
+Linux/macOS: `./gradlew build`.
+
+Ready-made mod: `build/libs/minescript-studio-0.4.0.jar`.
+
+## Use
+
+- `/mse` open editor, `/mse имя` open or create file
+- «Open editor» button (Default - K) and «Launch last script» (Default - None):
+- Options: «Options button» in editor
