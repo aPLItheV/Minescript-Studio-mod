@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "minescript_studio",
+	"version": "${version}",
+	"name": "Minescript Studio",
+	"description": "Edit, save and run Minescript scripts without leaving Minecraft. Syntax highlighting, suggestions for the Minescript API, find in file, syntax check, a collapsible console, file actions on right click, configurable hotkeys, and settings for the scripts folder and Python path.",
+	"authors": [
+		"Minescript Studio"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/minescript_studio/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.example.mse.MseClient"
+		],
+		"modmenu": [
+			"dev.example.mse.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"minescript": "*"
+	}
+}
