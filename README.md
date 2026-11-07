@@ -1,3 +1,5 @@
+**Read this in other languages:** [Русский](README.ru.md)
+
 # Minescript-Studio
 Fabric client mod for Minecraft 26.3: editor and settings for Minescript right in the game.
 Edit, save and run Minescript scripts without leaving Minecraft. Syntax highlighting, suggestions for the Minescript API, find in file, syntax check, a collapsible console, file actions on right click, configurable hotkeys, and settings for the scripts folder and Python path
